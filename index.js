@@ -10,7 +10,7 @@ const { PassThrough } = require('stream');
 const { ProducerStream } = kafka;
 
 if (semver.major(winston.version) === 2) {
-  throw new Error('Wiston version 2 is not supported. Please upgrade to version 3.');
+  throw new Error('Winston version 2 is not supported. Please upgrade to version 3.');
 }
 
 const loggerDefaults = {
