@@ -1,5 +1,5 @@
 {
-  "name": "winston-kafka",
+  "name": "winston-kafka-stream",
   "version": "0.0.1",
   "description": "A transport for winston which logs to kafka.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jpgraber/winston-kafka.git"
+    "url": "git@github.com:jpgraber/winston-kafka-stream.git"
   },
   "keywords": [
     "winston",
@@ -21,9 +21,9 @@
   "author": "Justin Graber <justin.graber@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jpgraber/winston-kakfa/issues"
+    "url": "https://github.com/jpgraber/winston-kafka-stream/issues"
   },
-  "homepage": "https://github.com/jpgraber/winston-kakfa#readme",
+  "homepage": "https://github.com/jpgraber/winston-kafka-stream#readme",
   "peerDependencies": {
     "winston": "^3"
   },
