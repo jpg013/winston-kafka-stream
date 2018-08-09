@@ -1,7 +1,5 @@
 # winston-kakfa-stream
 
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
 A streaming transport for [winston](https://github.com/winstonjs/winston) which logs messages to a kafka topic. Winston-kafka-stream streams messages from to kafka using the the kafka-node producerStream module (https://github.com/SOHU-Co/kafka-node/blob/master/lib/producerStream.js).
 
 ## Install
